@@ -1,0 +1,72 @@
+{
+  "statistic" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 1,
+    "unknown" : 0,
+    "total" : 1
+  },
+  "time" : {
+    "minDuration" : 3,
+    "maxDuration" : 3,
+    "sumDuration" : 3,
+    "start" : 1498228284736,
+    "stop" : 1498228284739,
+    "duration" : 3
+  },
+  "children" : [ {
+    "uid" : "892efeea521ba354",
+    "name" : "WW302856",
+    "time" : {
+      "minDuration" : 3,
+      "maxDuration" : 3,
+      "sumDuration" : 3,
+      "start" : 1498228284736,
+      "stop" : 1498228284739,
+      "duration" : 3
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "cf3198127916f054",
+      "name" : "9624@WW302856.main(1)",
+      "time" : {
+        "minDuration" : 3,
+        "maxDuration" : 3,
+        "sumDuration" : 3,
+        "start" : 1498228284736,
+        "stop" : 1498228284739,
+        "duration" : 3
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "b78eb0c1a8aad590",
+        "name" : "testIfAccountCanBeCreated",
+        "time" : {
+          "start" : 1498228284736,
+          "stop" : 1498228284739,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    } ]
+  } ]
+}

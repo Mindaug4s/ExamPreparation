@@ -1,0 +1,77 @@
+{
+  "uid" : "b78eb0c1a8aad590",
+  "name" : "testIfAccountCanBeCreated",
+  "fullName" : "exam.preparation.ExamPreparationProject.PreparationTest.testIfAccountCanBeCreated",
+  "historyId" : "e3499edde93d2d933078b646c01f08a1",
+  "time" : {
+    "start" : 1498228284736,
+    "stop" : 1498228284739,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ {
+    "name" : "prepareForTest",
+    "time" : {
+      "start" : 1498228277814,
+      "stop" : 1498228284548,
+      "duration" : 6734
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "closeBrowser",
+    "time" : {
+      "start" : 1498228284766,
+      "stop" : 1498228284965,
+      "duration" : 199
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "exam.preparation.ExamPreparationProject.PreparationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "exam.preparation.ExamPreparationProject.PreparationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testIfAccountCanBeCreated"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "exam.preparation.ExamPreparationProject.PreparationTest"
+  }, {
+    "name" : "host",
+    "value" : "WW302856"
+  }, {
+    "name" : "thread",
+    "value" : "9624@WW302856.main(1)"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

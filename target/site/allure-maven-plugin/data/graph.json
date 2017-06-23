@@ -1,0 +1,11 @@
+[ {
+  "uid" : "b78eb0c1a8aad590",
+  "name" : "testIfAccountCanBeCreated",
+  "time" : {
+    "start" : 1498228284736,
+    "stop" : 1498228284739,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

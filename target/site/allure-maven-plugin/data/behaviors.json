@@ -1,0 +1,72 @@
+{
+  "statistic" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 1,
+    "unknown" : 0,
+    "total" : 1
+  },
+  "time" : {
+    "minDuration" : 3,
+    "maxDuration" : 3,
+    "sumDuration" : 3,
+    "start" : 1498228284736,
+    "stop" : 1498228284739,
+    "duration" : 3
+  },
+  "children" : [ {
+    "uid" : "6bd08343306ea07a",
+    "name" : "Default feature",
+    "time" : {
+      "minDuration" : 3,
+      "maxDuration" : 3,
+      "sumDuration" : 3,
+      "start" : 1498228284736,
+      "stop" : 1498228284739,
+      "duration" : 3
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "253f731d4316bc06",
+      "name" : "Default story",
+      "time" : {
+        "minDuration" : 3,
+        "maxDuration" : 3,
+        "sumDuration" : 3,
+        "start" : 1498228284736,
+        "stop" : 1498228284739,
+        "duration" : 3
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "b78eb0c1a8aad590",
+        "name" : "testIfAccountCanBeCreated",
+        "time" : {
+          "start" : 1498228284736,
+          "stop" : 1498228284739,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    } ]
+  } ]
+}
